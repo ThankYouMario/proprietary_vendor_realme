@@ -35,18 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/bladerunner/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_226Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_230Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_234Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_237Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_226Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_230Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_234Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_237Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_226Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_230Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_234Hz.bin \
-    vendor/realme/bladerunner/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_237Hz.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19705/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19705/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19706/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19706/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19795/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19795/oplus_vooc_fw.bin \
