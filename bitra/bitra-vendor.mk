@@ -49,7 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-21619.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-21619.conf \
+    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-2169B.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-2169B.conf \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
