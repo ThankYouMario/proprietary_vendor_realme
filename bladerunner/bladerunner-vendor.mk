@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5k3m5sx:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5sx \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
-    vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nxp-19705.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19705.conf \
+    vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nxp-19795.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19795.conf \
     vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
