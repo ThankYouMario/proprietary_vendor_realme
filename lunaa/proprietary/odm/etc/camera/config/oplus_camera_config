@@ -1271,41 +1271,6 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
-},
-
-{
-  "VendorTag": "com.oplus.athena.new.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.low",
-  "Type": "Float",
-  "Count": "3",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.medium",
-  "Type": "Float",
-  "Count": "3",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.high",
-  "Type": "Float",
-  "Count": "3",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.athena.memory.threshold",
-  "Type": "String",
-  "Count": "1",
-  "Value": "3.0"
 }
 ]
 

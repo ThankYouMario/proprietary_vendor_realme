@@ -234,7 +234,7 @@
     "com.oplus.sat.wide.support.imagesizes": "4096X3072X4096X2304X4096X1840X3072X3072",
     "com.oplus.sat.ultra.support.imagesizes": "4624X3468X4624X2608X4624X2080X3468X3468",
     "com.oplus.sat.tele.support.imagesizes": "4000X3000X4000X2256X4000X1800X3000X3000",
-	"com.oplus.front.common.high.mfnr.picturesize": "3280X2464X2464X2464X3280X1476X3280X1846",
+    "com.oplus.front.common.high.mfnr.picturesize": "3280X2464X2464X2464X3280X1476X3280X1846",
     "com.oplus.flash.wide.tel.support": "1",
     "com.oplus.night.pro.support": "1",
     "com.oplus.sat.need.set.zoomratio": "1"

@@ -38,7 +38,7 @@
                     "aps_algo_face_info":1,
                     "aps_algo_scportrait" : 1,
                     "aps_algo_couple_hdr" : 1,
-                    "aps_algo_face_whiten" : 1
+                    "aps_algo_face_whiten" : 0
                 },
                 {
                     "id" : 1,
