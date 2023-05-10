@@ -147,7 +147,7 @@
   "VendorTag": "com.oplus.aps.params.singlebokeh",
   "Type": "Int32",
   "Count": "2",
-  "Value": "65, 1",
+  "Value": "65, 0",
   "Comment": "JsonParamsSingleBokeh: blurSlope, blurIntercept"
 },
 
