@@ -569,6 +569,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegBaseSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libCNamaSDK_vendor.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libCaptureBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libCaptureBokeh.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
@@ -582,6 +583,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libFaceWhiten.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceWhiten.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libHdrVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libHdrVideo.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libNamaWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libNamaWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libNightVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libNightVideo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
