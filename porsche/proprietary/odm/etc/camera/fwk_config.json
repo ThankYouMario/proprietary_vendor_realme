@@ -1,0 +1,24 @@
+{
+    "com.flatfish.cal.privacy": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+    },
+    "com.privacy.calculatorlock.secret": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+    },
+    "com.microsoft.office.outlook": {
+        "maxPreviewWidthForAPI2": 1920,
+        "maxPreviewHeightForAPI2": 1080,
+        "thirdPartyAppLimitPicture": true,
+    },
+    "com.whatsapp": {
+        "thirdPartyAppWidthLimitForCam1API2": 1920,
+        "thirdPartyAppHeightLimitForCam1API2": 1080,
+        "thirdPartyAppLimitPicture": true,
+    },
+    "com.twitter.android": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+    },
+}
