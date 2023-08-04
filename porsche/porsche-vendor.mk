@@ -528,6 +528,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img \
     vendor/realme/porsche/proprietary/odm/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img \
     vendor/realme/porsche/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/realme/porsche/proprietary/odm/lib/libQnnHtpStub.so:$(TARGET_COPY_OUT_ODM)/lib/libQnnHtpStub.so \
     vendor/realme/porsche/proprietary/odm/lib/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBlurlessAPI_v2.so \
     vendor/realme/porsche/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/realme/porsche/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
@@ -633,6 +634,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_ODM)/lib64/libPlatformValidatorShared.so \
     vendor/realme/porsche/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
     vendor/realme/porsche/proprietary/odm/lib64/libPreviewDecisionOld.so:$(TARGET_COPY_OUT_ODM)/lib64/libPreviewDecisionOld.so \
+    vendor/realme/porsche/proprietary/odm/lib64/libQnnHtpStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpStub.so \
     vendor/realme/porsche/proprietary/odm/lib64/libRedeyeReduce.so:$(TARGET_COPY_OUT_ODM)/lib64/libRedeyeReduce.so \
     vendor/realme/porsche/proprietary/odm/lib64/libSNPE.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE.so \
     vendor/realme/porsche/proprietary/odm/lib64/libSNPE_G.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE_G.so \
