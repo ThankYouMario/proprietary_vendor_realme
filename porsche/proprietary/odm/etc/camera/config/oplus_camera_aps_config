@@ -2136,6 +2136,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.aps.debug.caliexif.enable",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
   "VendorTag": "com.oplus.asd.low.memory.params",
   "Type": "String",
   "Count": "2",
