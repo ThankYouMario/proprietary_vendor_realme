@@ -69,24 +69,6 @@ android_app_import {
 	soc_specific: true,
 }
 
-android_app_import {
-	name: "PowerOffAlarm",
-	owner: "realme",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.alarm-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
 	owner: "realme",
