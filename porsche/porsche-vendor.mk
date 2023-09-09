@@ -590,7 +590,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.sensormodule.shinetech_ov02b10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.shinetech_ov02b10.bin \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.sensormodule.shinetech_ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.shinetech_ov08d10.bin \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx471_216B2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx471_216B2.bin \
-    vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.bin \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.tuned.sm8350_imx471_sunny_216B2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8350_imx471_sunny_216B2.bin \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.tuned.sm8350_ov02b10_shinetech.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8350_ov02b10_shinetech.bin \
     vendor/realme/porsche/proprietary/odm/lib64/camera/com.qti.tuned.sm8350_ov08d10_shinetech.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8350_ov08d10_shinetech.bin \
