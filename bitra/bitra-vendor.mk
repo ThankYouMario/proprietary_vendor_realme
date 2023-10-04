@@ -50,9 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-21619.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-21619.conf \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-2169B.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-2169B.conf \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_bu52053nvx_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_bu52053nvx_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
@@ -84,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img \
     vendor/realme/bitra/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
     vendor/realme/bitra/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/realme/bitra/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so \
