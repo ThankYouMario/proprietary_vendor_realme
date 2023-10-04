@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
-    vendor/realme/bladerunner_48m/proprietary/vendor/etc/libnfc-nxp-20607.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-20607.conf \
-    vendor/realme/bladerunner_48m/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
     vendor/realme/bladerunner_48m/proprietary/odm/etc/sensor/config/kona_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct_rear.json \
@@ -39,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner_48m/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG.img \
     vendor/realme/bladerunner_48m/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img \
     vendor/realme/bladerunner_48m/proprietary/odm/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img \
-    vendor/realme/bladerunner_48m/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/bladerunner_48m/proprietary/odm/lib64/camera/com.qti.sensor.gc02m0b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m0b.so \
     vendor/realme/bladerunner_48m/proprietary/odm/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.hi846.so \
     vendor/realme/bladerunner_48m/proprietary/odm/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx471.so \
