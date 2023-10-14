@@ -114,11 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
-    vendor/realme/bitra/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
-    vendor/realme/bitra/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
-    vendor/realme/bitra/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
@@ -150,8 +147,4 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
     vendor/realme/bitra/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
-    vendor/realme/bitra/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
+    vendor/realme/bitra/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so
