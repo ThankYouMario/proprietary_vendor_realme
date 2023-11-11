@@ -7,20 +7,34 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/General_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Global_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Handset_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Handset_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Hdmi_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Headset_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/acdbdata/Speaker_cal.acdb \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/CameraHWConfiguration.config \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/camera_unit_config \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/gc8054:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc8054 \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/etc/camera/config/hi846 \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/hi846 \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/imx471 \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/imx586:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/imx586 \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/imx616:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx616 \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/camera/config/oplus_camera_config \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5k3m5sx:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5sx \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
@@ -31,18 +45,25 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/config/kona_qrd_lsm6dso.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_lsm6dso.json \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bladerunner/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/sensor/sensor_config.json \
     vendor/realme/bladerunner/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/wifi/bdwlan.elf \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19705/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19705/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19706/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19706/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/19795/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19795/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin \
+    vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/20607/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20607/oplus_vooc_fw.bin \
     vendor/realme/bladerunner/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/realme/bladerunner/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/firmware/tfa98xx.cnt \
     vendor/realme/bladerunner/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG.img \
     vendor/realme/bladerunner/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img \
     vendor/realme/bladerunner/proprietary/odm/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.gc02m0b.so:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.gc02m0b.so \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensor.gc8054.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc8054.so \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.hi846.so \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx471.so \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx586.so \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensor.imx616.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx616.so \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensor.ov02a1b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov02a1b.so \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensor.s5k3m5sx.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.s5k3m5sx.so \
@@ -51,14 +72,23 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx616.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx616.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5k3m5sx.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5k3m5sx.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_gc02m0b.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_gc02m0b.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.shine_ov02a1b.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b_3rdmono.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b_3rdmono.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.sunny_imx586.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.truly_hi846.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_ofilm_gc8054.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_ofilm_gc8054.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_19795.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_19795.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5sx.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5sx.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_shine_gc02m0b.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_shine_gc02m0b.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx586.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx586.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin \
     vendor/realme/bladerunner/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin \
+    vendor/realme/bladerunner/proprietary/odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin \
     vendor/realme/bladerunner/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
     vendor/realme/bladerunner/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
     vendor/realme/bladerunner/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
