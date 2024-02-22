@@ -184,6 +184,14 @@
 },
 
 {
+  "VendorTag": "com.oplus.aps.previewdecison.skipcnt",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "3",
+  "Comment": "set previewdecision skip frame count, default:1"
+},
+
+{
   "VendorTag": "com.oplus.aps.params.videoblur",
   "Type": "Int32",
   "Count": "2",
@@ -735,7 +743,7 @@
             20,
             4096,
             4096,
-            -70, 44, 83, 25, -74, 98",
+            -15, 50, 50, 0, 0, 100",
   "Comment": "
             paramCfgNum,
             estimateTime,

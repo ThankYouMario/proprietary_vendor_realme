@@ -8,6 +8,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.jpeg.quality.value",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "95"
+},
+
+{
   "VendorTag": "com.hdr.upgrade.bubble.tips.support",
   "Type": "Byte",
   "Count": "1",
@@ -372,7 +379,21 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.slogan.location.support",
+  "VendorTag": "com.oplus.feature.qr.code.scanner.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.watermark.is.new.project.behavior",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.feature.face.beauty.custom.menu.refinement.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
@@ -1257,7 +1278,20 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
-}
+},
 
+{
+  "VendorTag":"com.oplus.support.professional.mode.in.headline",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.street.default.zoom.focal.length.config",
+  "Type": "String",
+  "Count": "2",
+  "Value": "0.6(16),1(24)"
+}
 ]
 

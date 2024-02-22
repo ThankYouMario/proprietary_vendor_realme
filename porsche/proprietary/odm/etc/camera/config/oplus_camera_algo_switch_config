@@ -1490,7 +1490,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_rectify", "preview_lsd" ]
+                            "algo_list": [ "preview_rectify", "preview_lsd", "preview_edge_filter" ]
                         },
                         "video": {
                             "enable": 0
