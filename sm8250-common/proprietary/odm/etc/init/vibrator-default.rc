@@ -1,0 +1,42 @@
+on late-fs
+#ifdef OPLUS_FEATURE_CHG_BASIC
+#Qingjun.Wang@Tech.BSP.Haptic, 2020/04/15,  Add for vibration dev file
+    # This allows the ledtrig-transient properties to be created here so
+   # that they can be chown'd to system:system later on boot
+    write /sys/class/leds/vibrator/trigger "transient"
+
+    chown system system /sys/class/leds/vibrator/trigger
+    chown system system /sys/class/leds/vibrator/activate
+    chmod 0666 /sys/class/leds/vibrator/activate
+    chown system system /sys/class/leds/vibrator/brightness
+    chown system system /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/state
+    chown system system /sys/class/leds/vibrator/f0
+    chown system system /sys/class/leds/vibrator/cali
+    chown system system /sys/class/leds/vibrator/vmax
+    chown system system /sys/class/leds/vibrator/index
+    chmod 0666 /sys/class/leds/vibrator/index
+    chown system system /sys/class/leds/vibrator/loop
+    chown system system /sys/class/leds/vibrator/lra_resistance
+    chown system system /sys/class/leds/vibrator/ram_update
+    chown system audio /sys/class/leds/vibrator/rtp
+    chmod 0660 /sys/class/leds/vibrator/rtp
+    chown system system /sys/class/leds/vibrator/seq
+    chown system system /sys/class/leds/vibrator/motor_old
+    chown system system /sys/class/leds/vibrator/waveform_index
+    chown system system /sys/class/leds/vibrator/osc_cali
+    chmod 0660 /sys/class/leds/vibrator/osc_cali
+    chown system system /sys/class/leds/vibrator/osc_data
+    chown system system /sys/class/leds/vibrator/ram_test
+    chown system system /sys/class/leds/vibrator/f0_data
+    chown system system /sys/class/qcom-haptics/lra_calibration
+    chown system system /sys/class/qcom-haptics/lra_frequency_hz
+    chown system system /sys/class/qcom-haptics/lra_impedance
+#endif /* OPLUS_FEATURE_CHG_BASIC */
+    chmod 0666 /dev/awinic_haptic
+service vendor.oplus.vibrator-default /odm/bin/hw/vendor.oplus.hardware.vibrator-service
+    class hal
+    user system
+    group system
+    setenv RICHTAP_DEVICE_PATH /dev/awinic_haptic
+    setenv ENV_RICHTAP_CONFIG_PATH /odm/etc/aac_richtap.config

@@ -12,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
+    vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.oplus.hardware.vibrator-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.vibrator-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.ozoaudio.media.c2@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.ozoaudio.media.c2@1.0-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/realme/sm8250-common/proprietary/odm/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.secure_element@1.2-service \
@@ -20,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/realme/sm8250-common/proprietary/odm/bin/sensor_recover.sh:$(TARGET_COPY_OUT_ODM)/bin/sensor_recover.sh \
     vendor/realme/sm8250-common/proprietary/odm/bin/vl53l1_daemon_main:$(TARGET_COPY_OUT_ODM)/bin/vl53l1_daemon_main \
+    vendor/realme/sm8250-common/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
     vendor/realme/sm8250-common/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
@@ -488,6 +490,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.ozoaudio.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.ozoaudio.media.c2@1.0-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
+    vendor/realme/sm8250-common/proprietary/odm/etc/init/vibrator-default.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vibrator-default.rc \
     vendor/realme/sm8250-common/proprietary/vendor/firmware/sn100u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/ozosdk_CC160.license:$(TARGET_COPY_OUT_ODM)/etc/ozosdk_CC160.license \
     vendor/realme/sm8250-common/proprietary/odm/etc/ozosdk_CC169.license:$(TARGET_COPY_OUT_ODM)/etc/ozosdk_CC169.license \
@@ -500,7 +503,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
     vendor/realme/sm8250-common/proprietary/odm/firmware/aw8697_haptic_235.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235.bin \
     vendor/realme/sm8250-common/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
+    vendor/realme/sm8250-common/proprietary/odm/lib/hw/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/hw/awinic.haptic.effect.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib/libaacvibrator.so:$(TARGET_COPY_OUT_ODM)/lib/libaacvibrator.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libav_ozodecoder.so:$(TARGET_COPY_OUT_ODM)/lib/libav_ozodecoder.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libav_ozoencoder.so:$(TARGET_COPY_OUT_ODM)/lib/libav_ozoencoder.so \
@@ -547,6 +552,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libworker_pool.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libozoprocessing.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
@@ -634,6 +640,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib64/libXDocProcessSDK.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libYTCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libYTCommon.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libaacvibrator.so:$(TARGET_COPY_OUT_ODM)/lib64/libaacvibrator.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_hexagon.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_nnlib_sr.so \
@@ -750,6 +757,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.hal.tof.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so \
@@ -1020,6 +1028,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
@@ -1226,6 +1235,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
@@ -1535,4 +1545,5 @@ PRODUCT_PACKAGES += \
     manifest_oplus_osiesr \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_oplusSensor \
-    manifest_oplus_fingerprint
+    manifest_oplus_fingerprint \
+    vibrator-default
